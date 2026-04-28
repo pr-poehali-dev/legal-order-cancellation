@@ -29,8 +29,8 @@ export default function FormPage({
             <span className="text-[#B8962E] text-xs tracking-[0.3em]">ОНЛАЙН-ЗАЯВЛЕНИЕ</span>
           </div>
           <h1 className="font-cormorant text-5xl font-semibold text-[#1A1612] leading-tight">
-            Заявление об отмене<br />
-            <span className="italic text-[#8B6914]">незаконного приказа</span>
+            Заявление на отмену<br />
+            <span className="italic text-[#8B6914]">судебного приказа</span>
           </h1>
         </div>
 
