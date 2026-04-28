@@ -8,7 +8,7 @@ import Icon from "@/components/ui/icon";
 
 const EMPTY_FORM: FormData = {
   fullName: "", position: "", orderNumber: "",
-  orderDate: "", employer: "", reason: "", demand: "",
+  orderDate: "", employer: "", reason: "", demand: "", email: "",
 };
 
 export default function Index() {
@@ -38,6 +38,7 @@ export default function Index() {
       fullName: draft.fullName, position: draft.position,
       orderNumber: draft.orderNumber, orderDate: draft.orderDate,
       employer: draft.employer, reason: draft.reason, demand: draft.demand,
+      email: draft.email || "",
     });
     setDraftRestored(true);
     setSection("form");

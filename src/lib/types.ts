@@ -8,6 +8,7 @@ export interface DraftData {
   employer: string;
   reason: string;
   demand: string;
+  email: string;
   savedAt: string;
 }
 
