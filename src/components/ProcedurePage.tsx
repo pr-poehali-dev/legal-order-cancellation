@@ -16,7 +16,7 @@ export default function ProcedurePage({ navTo }: ProcedurePageProps) {
           </div>
           <h1 className="font-cormorant text-5xl font-semibold text-[#1A1612] leading-tight">
             Процедура отмены<br />
-            <span className="italic text-[#8B6914]">незаконного приказа</span>
+            <span className="italic text-[#8B6914]">судебного приказа</span>
           </h1>
         </div>
 
